@@ -1,6 +1,8 @@
 .forecast-cards {
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fill, 120px);
+  row-gap: 32px;
+  column-gap: 26px;
+  padding: 25px;
 }
