@@ -1,0 +1,7 @@
+.search-bar__label:focus-within .search-bar__icon {
+	display: none;
+}
+
+.search-bar__label:focus-within .search-bar__input {
+	padding-left: 12px;
+}

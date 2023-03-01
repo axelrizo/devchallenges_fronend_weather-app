@@ -1,0 +1,7 @@
+.list__icon{
+	display: none;
+}
+
+.list:hover .list__icon {
+	display: block;
+}
