@@ -6,7 +6,9 @@ function App() {
   return (
     <div className="overflow-x-hidden text-gray-200 font-raleway bg-background-dark-blue-2">
       <AsidePrincipal />
-      <ForecastCards />
+      <section className="p-6">
+        <ForecastCards />
+      </section>
       <section className="py-14 px-6">
         <h2 className="text-2xl font-bold pb-8">Today's Highlights</h2>
         <TodayHightlightsList />
